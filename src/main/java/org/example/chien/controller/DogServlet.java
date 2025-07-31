@@ -30,7 +30,7 @@ public class DogServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         req.setAttribute("dogList", dogService.getAll());
-        req.getRequestDispatcher("/WEB-INF/Components/form.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/Views/DogList.jsp").forward(req, resp);
     }
 
     @Override

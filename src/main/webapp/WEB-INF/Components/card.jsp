@@ -7,7 +7,7 @@
     <h1>Dogs List</h1>
 
     <ul class="list-group" >
-        <c:forEach var="cat" items="${dogList}">
+        <c:forEach var="dog" items="${dogList}">
             <li class="list-group-item">
                 <strong>${dog.name}</strong>
                 <p>Breed : ${dog.breed} </p>

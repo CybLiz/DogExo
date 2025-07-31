@@ -9,7 +9,7 @@
 
     <form action="${pageContext.request.contextPath}/dog" method="post">
             <div class="mb-3">
-                <label for="name" class="form-label">Name :</label>
+                <label for="name" class="form-label">Nameeee :</label>
                 <input type="text" class="form-control" id="name" name="name" >
             </div>
             <div class="mb-3">
